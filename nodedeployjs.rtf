@@ -1,0 +1,249 @@
+{\rtf1\ansi\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.17134}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9 C:\\WOZlessons\\deploy\\TodoList>node deploy.js\par
+Deployment started.\par
+Connecting to the server...\par
+Error: config.privateKey does not exist at Lesson1.pem\par
+    at Object.<anonymous> (C:\\WOZlessons\\deploy\\TodoList\\node_modules\\node-ssh\\lib\\helpers.js:64:19)\par
+    at Generator.throw (<anonymous>)\par
+    at step (C:\\WOZlessons\\deploy\\TodoList\\node_modules\\node-ssh\\lib\\helpers.js:117:191)\par
+    at C:\\WOZlessons\\deploy\\TodoList\\node_modules\\node-ssh\\lib\\helpers.js:117:402\par
+    at <anonymous>\par
+\par
+C:\\WOZlessons\\deploy\\TodoList>dir\par
+ Volume in drive C has no label.\par
+ Volume Serial Number is 008F-ABC7\par
+\par
+ Directory of C:\\WOZlessons\\deploy\\TodoList\par
+\par
+06/26/2019  09:32 PM    <DIR>          .\par
+06/26/2019  09:32 PM    <DIR>          ..\par
+06/26/2019  09:24 PM               582 .eslintrc\par
+06/26/2019  09:24 PM                45 .gitignore\par
+06/26/2019  09:24 PM               554 api.js\par
+06/26/2019  09:24 PM               994 app.js\par
+06/26/2019  09:28 PM            14,512 appworkingoninstance.PNG\par
+06/26/2019  09:24 PM    <DIR>          client\par
+06/26/2019  09:37 PM             4,058 deploy.js\par
+06/26/2019  07:52 PM             1,692 hs-key.pem\par
+06/26/2019  07:58 PM             1,464 Lesson1.ppk\par
+06/26/2019  09:30 PM            23,902 makingdeployjs.PNG\par
+06/26/2019  09:34 PM    <DIR>          node_modules\par
+06/26/2019  09:29 PM             3,249 package-lock.json\par
+06/26/2019  09:24 PM               417 package.json\par
+06/26/2019  09:24 PM    <DIR>          public\par
+06/26/2019  09:24 PM               284 README.md\par
+06/26/2019  09:27 PM             2,281 terminal commands.rtf\par
+06/26/2019  09:24 PM    <DIR>          views\par
+              13 File(s)         54,034 bytes\par
+               6 Dir(s)  781,879,558,144 bytes free\par
+\par
+C:\\WOZlessons\\deploy\\TodoList>node deploy.js\par
+Deployment started.\par
+Connecting to the server...\par
+SSH Connection established.\par
+Installing PM2...\par
+Creating `hackathon-starter-temp` folder.\par
+Transferring files to remote server...\par
+successful.push: ..\\hackathon-starter\\app.js\par
+successful.push: ..\\hackathon-starter\\deploy.js\par
+successful.push: ..\\hackathon-starter\\docker-compose.yml\par
+successful.push: ..\\hackathon-starter\\example-key.ppk\par
+successful.push: ..\\hackathon-starter\\hs-key.pem\par
+successful.push: ..\\hackathon-starter\\Dockerfile\par
+successful.push: ..\\hackathon-starter\\LICENSE\par
+successful.push: ..\\hackathon-starter\\package-lock.json\par
+successful.push: ..\\hackathon-starter\\package.json\par
+successful.push: ..\\hackathon-starter\\README.md\par
+successful.push: ..\\hackathon-starter\\config\\passport.js\par
+successful.push: ..\\hackathon-starter\\controllers\\api.js\par
+successful.push: ..\\hackathon-starter\\controllers\\home.js\par
+successful.push: ..\\hackathon-starter\\controllers\\user.js\par
+successful.push: ..\\hackathon-starter\\models\\User.js\par
+successful.push: ..\\hackathon-starter\\public\\favicon.png\par
+successful.push: ..\\hackathon-starter\\views\\contact.pug\par
+successful.push: ..\\hackathon-starter\\views\\home.pug\par
+successful.push: ..\\hackathon-starter\\views\\layout.pug\par
+successful.push: ..\\hackathon-starter\\test\\app.js\par
+successful.push: ..\\hackathon-starter\\test\\models.js\par
+successful.push: ..\\hackathon-starter\\controllers\\contact.js\par
+successful.push: ..\\hackathon-starter\\public\\css\\main.css\par
+successful.push: ..\\hackathon-starter\\public\\css\\main.scss\par
+successful.push: ..\\hackathon-starter\\public\\js\\main.js\par
+successful.push: ..\\hackathon-starter\\public\\webfonts\\fa-brands-400.svg\par
+successful.push: ..\\hackathon-starter\\public\\webfonts\\fa-brands-400.eot\par
+successful.push: ..\\hackathon-starter\\public\\webfonts\\fa-brands-400.ttf\par
+successful.push: ..\\hackathon-starter\\public\\webfonts\\fa-brands-400.woff\par
+successful.push: ..\\hackathon-starter\\public\\webfonts\\fa-brands-400.woff2\par
+successful.push: ..\\hackathon-starter\\public\\webfonts\\fa-regular-400.eot\par
+successful.push: ..\\hackathon-starter\\public\\webfonts\\fa-regular-400.svg\par
+successful.push: ..\\hackathon-starter\\public\\webfonts\\fa-regular-400.ttf\par
+successful.push: ..\\hackathon-starter\\public\\webfonts\\fa-regular-400.woff\par
+successful.push: ..\\hackathon-starter\\public\\webfonts\\fa-regular-400.woff2\par
+successful.push: ..\\hackathon-starter\\public\\webfonts\\fa-solid-900.svg\par
+successful.push: ..\\hackathon-starter\\public\\webfonts\\fa-solid-900.eot\par
+successful.push: ..\\hackathon-starter\\public\\webfonts\\fa-solid-900.woff\par
+successful.push: ..\\hackathon-starter\\public\\webfonts\\fa-solid-900.ttf\par
+successful.push: ..\\hackathon-starter\\public\\webfonts\\Font Awesome 5 Brands-Regular-400.otf\par
+successful.push: ..\\hackathon-starter\\public\\webfonts\\Font Awesome 5 Free-Regular-400.otf\par
+successful.push: ..\\hackathon-starter\\public\\webfonts\\Font Awesome 5 Free-Solid-900.otf\par
+successful.push: ..\\hackathon-starter\\public\\webfonts\\fa-solid-900.woff2\par
+successful.push: ..\\hackathon-starter\\views\\account\\forgot.pug\par
+successful.push: ..\\hackathon-starter\\views\\account\\login.pug\par
+successful.push: ..\\hackathon-starter\\views\\account\\profile.pug\par
+successful.push: ..\\hackathon-starter\\views\\account\\signup.pug\par
+successful.push: ..\\hackathon-starter\\views\\account\\reset.pug\par
+successful.push: ..\\hackathon-starter\\views\\api\\aviary.pug\par
+successful.push: ..\\hackathon-starter\\views\\api\\clockwork.pug\par
+successful.push: ..\\hackathon-starter\\views\\api\\facebook.pug\par
+successful.push: ..\\hackathon-starter\\views\\api\\foursquare.pug\par
+successful.push: ..\\hackathon-starter\\views\\api\\github.pug\par
+successful.push: ..\\hackathon-starter\\views\\api\\google-maps.pug\par
+successful.push: ..\\hackathon-starter\\views\\api\\index.pug\par
+successful.push: ..\\hackathon-starter\\views\\api\\instagram.pug\par
+successful.push: ..\\hackathon-starter\\views\\api\\lastfm.pug\par
+successful.push: ..\\hackathon-starter\\views\\api\\linkedin.pug\par
+successful.push: ..\\hackathon-starter\\views\\api\\lob.pug\par
+successful.push: ..\\hackathon-starter\\views\\api\\nyt.pug\par
+successful.push: ..\\hackathon-starter\\views\\api\\paypal.pug\par
+successful.push: ..\\hackathon-starter\\views\\api\\pinterest.pug\par
+successful.push: ..\\hackathon-starter\\views\\api\\scraping.pug\par
+successful.push: ..\\hackathon-starter\\views\\api\\steam.pug\par
+successful.push: ..\\hackathon-starter\\views\\api\\stripe.pug\par
+successful.push: ..\\hackathon-starter\\views\\api\\tumblr.pug\par
+successful.push: ..\\hackathon-starter\\views\\api\\twilio.pug\par
+successful.push: ..\\hackathon-starter\\views\\api\\twitter.pug\par
+successful.push: ..\\hackathon-starter\\views\\api\\upload.pug\par
+successful.push: ..\\hackathon-starter\\views\\partials\\flash.pug\par
+successful.push: ..\\hackathon-starter\\views\\partials\\footer.pug\par
+successful.push: ..\\hackathon-starter\\views\\partials\\header.pug\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap-social.scss\par
+successful.push: ..\\hackathon-starter\\public\\js\\lib\\jquery-3.1.1.min.js\par
+successful.push: ..\\hackathon-starter\\public\\js\\lib\\bootstrap.min.js\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\bootstrap.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_alerts.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_badges.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_breadcrumbs.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_button-groups.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_buttons.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_carousel.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_close.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_code.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_component-animations.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_dropdowns.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_forms.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_glyphicons.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_input-groups.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_grid.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_jumbotron.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_list-group.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_labels.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_media.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_mixins.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_modals.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_navbar.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_navs.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_normalize.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_pager.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_pagination.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_panels.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_popovers.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_print.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_progress-bars.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_responsive-embed.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_responsive-utilities.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_scaffolding.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_tables.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_theme.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_thumbnails.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_tooltip.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_type.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_utilities.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_variables.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\_wells.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\font-awesome\\fa-brands.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\font-awesome\\fa-regular.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\font-awesome\\fontawesome.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\font-awesome\\fa-solid.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\font-awesome\\_animated.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\font-awesome\\_bordered-pulled.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\font-awesome\\_core.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\font-awesome\\_fixed-width.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\font-awesome\\_icons.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\font-awesome\\_list.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\font-awesome\\_larger.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\font-awesome\\_mixins.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\font-awesome\\_rotated-flipped.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\font-awesome\\_screen-reader.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\font-awesome\\_stacked.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\font-awesome\\_variables.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\flatly\\_flatly.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\flatly\\_variables.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\modern\\_modern.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\modern\\_variables.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_alerts.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_background-variant.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_border-radius.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_buttons.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_center-block.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_clearfix.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_forms.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_gradients.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_grid-framework.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_grid.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_hide-text.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_image.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_labels.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_list-group.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_nav-divider.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_nav-vertical-align.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_opacity.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_pagination.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_panels.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_progress-bar.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_reset-filter.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_reset-text.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_resize.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_responsive-visibility.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_size.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_table-row.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_tab-focus.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_text-emphasis.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_text-overflow.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\lib\\bootstrap\\mixins\\_vendor-prefixes.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\default\\_default.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\default\\_variables.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\_alerts.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\_buttons.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\_carousel.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\_dropdown.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\_inputs.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\_collapse.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\_labels-and-progress-bars.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\_misc.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\_mixins.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\_navbars.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\_modal.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\_responsive.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\_sliders.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\_social-buttons.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\_tabs-navs-pagination.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\_tooltips.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\_typography.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\_variables.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\mixins\\_buttons.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\mixins\\_inputs.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\mixins\\_labels.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\mixins\\_navbars.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\mixins\\_tabs.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\mixins\\_transparency.scss\par
+successful.push: ..\\hackathon-starter\\public\\css\\themes\\gsdk\\gsdk\\mixins\\_vendor-prefixes.scss\par
+Stopping remote services.\par
+Updating remote app.\par
+Restarting remote services...\par
+DEPLOYMENT COMPLETE!\par
+\par
+C:\\WOZlessons\\deploy\\TodoList>\par
+}
+ 
